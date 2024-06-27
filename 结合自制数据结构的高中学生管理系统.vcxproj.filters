@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\myvector">
+      <UniqueIdentifier>{aca1a009-e2f6-4c08-ab3e-47d195eca74b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\otherclass">
+      <UniqueIdentifier>{27c4548c-eb9b-4793-862c-a3a596ca4b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\mysort">
+      <UniqueIdentifier>{b153068a-0cd8-41c9-80d4-2fa2e99e2651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\学校管理系统">
+      <UniqueIdentifier>{f076e90e-66e1-4d1f-9b56-87c17f187cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\统计图">
+      <UniqueIdentifier>{6ec47a84-1f94-4e2a-8627-3a89cdeee1af}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myvector.h">
+      <Filter>头文件\myvector</Filter>
+    </ClInclude>
+    <ClInclude Include="myalgorithm.h">
+      <Filter>头文件\mysort</Filter>
+    </ClInclude>
+    <ClInclude Include="password.h">
+      <Filter>头文件\otherclass</Filter>
+    </ClInclude>
+    <ClInclude Include="高中学校管理系统.h">
+      <Filter>头文件\otherclass</Filter>
+    </ClInclude>
+    <ClInclude Include="柱状图.h">
+      <Filter>头文件\otherclass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="student，teacher和stuwithclass文件.cpp">
+      <Filter>源文件\学校管理系统</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="school类.cpp">
+      <Filter>源文件\学校管理系统</Filter>
+    </ClCompile>
+    <ClCompile Include="studentscore类和scoreanalysis类.cpp">
+      <Filter>源文件\学校管理系统</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
